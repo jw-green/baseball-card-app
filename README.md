@@ -2,7 +2,9 @@
 
 ## Brief
 
-Intended to be an effective way of displaying metrics on users in the form of searchable summaries and baseball cards (à la [Bridgewater](https://goo.gl/gPfeRB)).
+Intended to be an effective way of displaying metrics on teams in the form of searchable summaries and baseball cards (à la [Bridgewater](https://goo.gl/gPfeRB)).
+
+The app skeleton was generated with `create-react-app`.
 
 ## Structure
 
