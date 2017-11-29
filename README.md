@@ -21,6 +21,7 @@ The app skeleton was generated with `create-react-app`.
 |   |   |-- ./src/components/MBTI.js
 |   |   |-- ./src/components/Name.js
 |   |   |-- ./src/components/Portrait.js
+|   |   |-- ./src/components/Subteam.js
 |   |   `-- ./src/components/Team.js
 |   |-- ./src/index.js
 |   |-- ./src/registerServiceWorker.js
