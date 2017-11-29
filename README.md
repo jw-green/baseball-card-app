@@ -9,13 +9,18 @@ The app skeleton was generated with `create-react-app`.
 ## Structure
 
 ```plaintext
+.
 |-- ./README.md
+|-- ./package-lock.json
 |-- ./package.json
 |-- ./public
 |   |-- ./public/favicon.ico
 |   |-- ./public/index.html
 |   `-- ./public/manifest.json
 |-- ./src
+|   |-- ./src/app
+|   |   |-- ./src/app/NavBar.js
+|   |   `-- ./src/app/NavItem.js
 |   |-- ./src/components
 |   |   |-- ./src/components/Card.js
 |   |   |-- ./src/components/MBTI.js
