@@ -3,15 +3,17 @@ import Name from './Name.js'
 import MBTI from './MBTI.js'
 import Portrait from './Portrait.js'
 import Team from './Team.js'
+import Subteam from './Subteam.js'
 
 class Card extends Component {
     render() {
         return (
             <div className="c-User_Info">
-                <Name/>
-                <MBTI/>
-                <Portrait/>
-                <Team/>
+                <Name name="Name"/>
+                <MBTI mbti="MBTI" />
+                <Portrait portrait="Portrait"/>
+                <Subteam subteam="Subteam"/>
+                <Team team="Team"/>
             </div>
         )
     }

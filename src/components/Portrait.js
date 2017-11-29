@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Portrait extends Component {
-    render() {
-        return (
-            <h3 className="c-Portrait">Portrait</h3>
-        )
-    }
+const Portrait = ({portrait}) => {
+    return (
+        <h3 className="c-Portrait">
+            {portrait}
+        </h3>
+    )
 }
 
 export default Portrait

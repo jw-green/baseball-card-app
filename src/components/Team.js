@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Team extends Component {
-    render() {
-        return (
-            <h3 className="c-Team">Team</h3>
-        )
-    }
+const Team = ({team}) => {
+    return (
+        <h3 className="c-team">
+            {team}
+        </h3>
+    )
 }
 
 export default Team
