@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import Card from './components/Card.js'
+import App from './container/App.js';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Card/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 registerServiceWorker();

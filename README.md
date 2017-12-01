@@ -19,20 +19,29 @@ The app skeleton was generated with `create-react-app`.
 |   `-- ./public/manifest.json
 |-- ./src
 |   |-- ./src/app
+|   |   |-- ./src/app/Filter.js
 |   |   |-- ./src/app/NavBar.js
 |   |   `-- ./src/app/NavItem.js
 |   |-- ./src/components
 |   |   |-- ./src/components/Card.js
+|   |   |-- ./src/components/CardList.js
+|   |   |-- ./src/components/Graph.js
 |   |   |-- ./src/components/MBTI.js
+|   |   |-- ./src/components/Metric.js
 |   |   |-- ./src/components/Name.js
 |   |   |-- ./src/components/Portrait.js
 |   |   |-- ./src/components/Subteam.js
 |   |   `-- ./src/components/Team.js
+|   |-- ./src/container
+|   |   `-- ./src/container/App.js
+|   |-- ./src/data
+|   |   `-- ./src/data/index.js
 |   |-- ./src/index.js
 |   |-- ./src/registerServiceWorker.js
 |   `-- ./src/styles
 |       `-- ./src/styles/index.css
 `-- ./yarn.lock
+
 ```
 
 ## Setup
