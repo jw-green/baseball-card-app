@@ -1,0 +1,7 @@
+.c-cardList {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    
+    display: flex;
+}

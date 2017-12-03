@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const NavItem = ({link, title}) => {
     return (
-        <a href={link} className="c-nav_item">{title}</a>
+        <a className="c-nav__item" href={link}>{title}</a>
     )
 }
 

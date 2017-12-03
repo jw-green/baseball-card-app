@@ -2,7 +2,7 @@ import React from 'react';
 
 const Portrait = ({portrait}) => {
     return (
-        <h3 className="c-Portrait">
+        <h3 className="c-portrait">
             {portrait}
         </h3>
     )

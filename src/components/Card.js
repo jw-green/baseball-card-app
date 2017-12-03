@@ -1,18 +1,21 @@
 import React from 'react';
-import Name from './Name.js'
-import MBTI from './MBTI.js'
-import Portrait from './Portrait.js'
-import Team from './Team.js'
-import Subteam from './Subteam.js'
+import CardFront from './CardFront.js';
+import CardBack from './CardBack.js';
+import '../styles/card.css';
 
 const Card = ({ name, mbti, portrait, subteam, team }) => {
     return (
-        <div className="c-card">
-            <Name name={name}/>
-            <MBTI mbti={mbti} />
-            <Portrait portrait={portrait}/>
-            <Subteam subteam={subteam}/>
-            <Team team={team}/>
+        <div className="c-card__container">
+            <div className="c-card">
+                <CardFront 
+                    name={name} 
+                    mbti={mbti}
+                    portrait={portrait}
+                    team={team}
+                    subteam={subteam}
+                />
+                <CardBack/>
+            </div>
         </div>
     )
 }

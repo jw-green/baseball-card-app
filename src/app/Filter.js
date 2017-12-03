@@ -12,7 +12,7 @@ class Filter extends Component {
 
     render() {
         return (
-            <div>
+            <div className="c-filter">
                 <input type="text" value={this.props.filterValue} onChange={this.handleChange}/>
             </div>
         )

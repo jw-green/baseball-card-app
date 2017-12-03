@@ -1,5 +1,6 @@
 import React from 'react';
-import Card from './Card.js'
+import Card from './Card.js';
+import '../styles/cardList.css';
 
 const CardList = ({ list, filter }) => {
     const cardList = Object.keys(list)
@@ -22,7 +23,7 @@ const CardList = ({ list, filter }) => {
                         }
                         return item
                     })
-    return <div>{cardList}</div>
+    return <div className="c-cardList">{cardList}</div>
 }
 
 export default CardList

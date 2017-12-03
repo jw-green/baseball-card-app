@@ -1,0 +1,23 @@
+.c-navbar__items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.c-nav__item {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.c-filter {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 17px 16px;
+}
