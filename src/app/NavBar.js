@@ -6,10 +6,12 @@ import '../styles/navbar.css';
 
 const NavBar = ({ filterValue, onChange }) => {
     return (
-        <div className='c-navbar'>
-          <ul className='c-navbar__items'>
-            <NavItem link="." title="🏠"/>
-            <PageTitle title="Baseball Cards"/>
+        <div className="c-navbar">
+          <ul className="c-navbar__items">
+            <div>
+              <NavItem link="." title="🏠"/>
+              <PageTitle title="Baseball Cards"/>
+            </div>
             <Filter filterValue={filterValue} onChange={onChange}/>
           </ul>
         </div>
