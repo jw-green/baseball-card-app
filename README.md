@@ -15,6 +15,8 @@ The app skeleton was generated with `create-react-app`.
 |-- package.json
 |-- public
 |   |-- favicon.ico
+|   |-- images
+|   |   `-- trees.png
 |   |-- index.html
 |   `-- manifest.json
 |-- src
