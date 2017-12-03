@@ -24,11 +24,14 @@ The app skeleton was generated with `create-react-app`.
 |   |   `-- NavItem.js
 |   |-- components
 |   |   |-- Card.js
+|   |   |-- CardBack.js
+|   |   |-- CardFront.js
 |   |   |-- CardList.js
-|   |   |-- Graph.js
 |   |   |-- MBTI.js
 |   |   |-- Metric.js
 |   |   |-- Name.js
+|   |   |-- PageTitle.js
+|   |   |-- PolarGraph.js
 |   |   |-- Portrait.js
 |   |   |-- Subteam.js
 |   |   `-- Team.js
@@ -39,7 +42,11 @@ The app skeleton was generated with `create-react-app`.
 |   |-- index.js
 |   |-- registerServiceWorker.js
 |   `-- styles
-|       `-- index.css
+|       |-- card.css
+|       |-- cardList.css
+|       |-- index.css
+|       |-- navbar.css
+|       `-- pageTitle.css
 `-- yarn.lock
 ```
 
